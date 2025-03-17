@@ -1,3 +1,12 @@
+REPO AI (reducing pollution with AI )
+ENVIRONMENT – AI-DRIVEN POLLUTION MONITORING & REDUCTION 
+
+Team 
+Shivam Tiwari 
+Kavya kapoor 
+Sunaina chhabra
+
+
 #  Smart Traffic & Pollution Management System
 
 ## 🚀 Project Overview
