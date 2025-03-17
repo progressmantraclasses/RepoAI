@@ -1,4 +1,4 @@
-# EcoTraffic AI -- Delhi Smart Traffic & Pollution Management System
+#  Smart Traffic & Pollution Management System
 
 ## 🚀 Project Overview
 The **Delhi Smart Traffic & Pollution Management System** is an AI-powered solution aimed at addressing Delhi NCR's persistent air quality and traffic congestion challenges. This system integrates **real-time AQI monitoring, predictive pollution modeling, smart traffic control, and emergency alerts** to foster sustainable urban mobility and public health improvements.
@@ -29,7 +29,7 @@ This project is currently a **prototype**, meaning that many features are still 
 - 🔧 **UI/UX enhancements and additional feature integrations** are planned for future updates.
 
 ## 🔗 Prototype Link
-[Check out our prototype](https://v0-delhi-hackthon.vercel.app/) *(Note: The prototype is still under testing, and some features may not work as expected.)*
+[Check out our prototype](https://pollutionsol.vercel.app/) *(Note: The prototype is still under testing, and some features may not work as expected.)*
 
 ## 🤝 Contributing
 We welcome feedback, suggestions, and contributions! Feel free to submit issues, bug reports, or feature requests to help us improve the system.
@@ -38,27 +38,17 @@ We welcome feedback, suggestions, and contributions! Feel free to submit issues,
 1. **Fork** the web repository 📌  
 2. **Clone** your forked repo:  
    ```sh
-   git clone https://github.com/your-username/Delhi-Hackthon-Web.git
+   git clone https://github.com/your-username/pollution.sol.git
    ```  
 3. **Install dependencies**:  
    ```sh
-   npm install
+   npm install --force
    ```  
 4. **Run locally**:  
    ```sh
    npm run dev
    ```  
 5. **Make your changes, commit, and push**  
-6. **Create a Pull Request** 🚀  
-
-
-
-Developed during the **Energy hackathon** By **IIT DELHI**, This Project is a collaborative effort by:  
-
-- 🧑‍💻 **Aryan Bhargava**  
-- 🧑‍💻 **Kushagara Singh**  
-- 🧑‍💻 **Jeet das**  
-- 🧑‍💻 **Aayushi**
-- 🧑‍💻 **Poushali Patra** 
+6. **Create a Pull Request** 🚀   
 
 ---
