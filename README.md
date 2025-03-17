@@ -29,7 +29,7 @@ This project is currently a **prototype**, meaning that many features are still 
 - 🔧 **UI/UX enhancements and additional feature integrations** are planned for future updates.
 
 ## 🔗 Prototype Link
-[Check out our prototype](https://pollutionsol.vercel.app/) *(Note: The prototype is still under testing, and some features may not work as expected.)*
+[Check out our prototype](https://repo-ai-alpha.vercel.app/) *(Note: The prototype is still under testing, and some features may not work as expected.)*
 
 ## 🤝 Contributing
 We welcome feedback, suggestions, and contributions! Feel free to submit issues, bug reports, or feature requests to help us improve the system.
@@ -38,7 +38,7 @@ We welcome feedback, suggestions, and contributions! Feel free to submit issues,
 1. **Fork** the web repository 📌  
 2. **Clone** your forked repo:  
    ```sh
-   git clone https://github.com/your-username/pollution.sol.git
+   git clone https://github.com/your-username/RepoAI.git
    ```  
 3. **Install dependencies**:  
    ```sh
