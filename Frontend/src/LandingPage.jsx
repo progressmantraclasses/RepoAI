@@ -28,6 +28,10 @@ import Spline from '@splinetool/react-spline';
            </div>
          </div>
        </div>
+
+
+       
+
      </div>
    );
  };

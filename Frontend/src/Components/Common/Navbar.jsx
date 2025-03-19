@@ -8,9 +8,10 @@ const Navbar = () => {
   const menuItems = [
     { title: 'Home', href: '/' },
     { title: 'Products', href: '/products' },
-    { title: 'Solutions', href: '/solution' },
+    { title: 'innovations', href: '/innovations' },
     { title: 'Contact', href: '/contact' },
-    { title: 'team', href: '/team' }
+    { title: 'team', href: '/team' },
+    { title: 'Signup', href: '/signup' }
   ];
 
   return (
