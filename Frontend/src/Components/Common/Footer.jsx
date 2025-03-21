@@ -9,10 +9,10 @@ const Footer = () => {
         {/* Brand Section */}
         <div className="flex flex-col gap-4">
           <h2 className="text-purple-500 text-2xl font-bold flex items-center gap-2">
-            <Brain className="w-6 h-6" /> Neuroxo Labs
+            <Brain className="w-6 h-6" /> HealthHub
           </h2>
           <p className="text-gray-300 leading-relaxed">
-            Pioneering the future of prosthetic technology with innovative bio-amp solutions that transform lives.
+          Your third-party healthcare platform has immense potential to transform how patients—especially the elderly and young parents—manage their medical lives.
           </p>
         </div>
 
@@ -38,7 +38,7 @@ const Footer = () => {
           <h3 className="text-purple-500 font-semibold text-lg">Contact</h3>
           <ul className="flex flex-col gap-3">
             <li className="text-gray-300">
-              <strong className="text-purple-400">Email:</strong> neuroxolabs@gmail.com
+              <strong className="text-purple-400">Email:</strong> eliteAchivers@gmail.com
             </li>
             <li className="text-gray-300">
               <strong className="text-purple-400">Tel:</strong> +91 8368770024
@@ -47,7 +47,7 @@ const Footer = () => {
               <strong className="text-purple-400">WhatsApp:</strong> +91 8368770024
             </li>
             <li className="text-gray-300">
-              GL BAJAJ Institute of Technology & Management
+              Team Elite Achivers private limited 
             </li>
           </ul>
         </div>
@@ -79,7 +79,7 @@ const Footer = () => {
       {/* Copyright Section */}
       <div className="max-w-6xl mx-auto mt-12 pt-8 border-t border-purple-800/30">
         <p className="text-gray-400 text-sm text-center">
-          Copyright © {new Date().getFullYear()} Neuroxo Labs. All rights reserved.
+          Copyright © {new Date().getFullYear()} Elite Achivers . All rights reserved.
         </p>
       </div>
     </footer>
