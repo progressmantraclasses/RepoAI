@@ -3,13 +3,13 @@ import Typewriter from "typewriter-effect"
  
  const TypeWritingEffect = () => {
    return (
-     <div>
-         <Typewriter
+     <div className="text-2xl font-bold text-center text-red-400">
+         <Typewriter 
            options={{
              strings:[
-                 "finest bio amp solutions at the most affordable prices",
-                 "combining cutting-edge technology with accessible pricing",
-                 " provide amputees with prosthetic solutions",                
+                 "72-Hour AQI Prediction",
+                 "Real-time pollution levels across Delhi NCR",
+                 "Air Quality Analysis",                
              ],
              autoStart:true,
              loop:true,

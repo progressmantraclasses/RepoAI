@@ -1,10 +1,26 @@
-import * as React from "react";
-import { cn } from '../../lib/utils'
+// export function Card({ children, className }) {
+//     return <div className={`border rounded-lg p-4 shadow-sm ${className}`}>{children}</div>;
+//   }
+  
 
-const Card = React.forwardRef(({ className, ...props }, ref) => (
-  <div ref={ref} className={cn("rounded-lg border bg-card text-card-foreground shadow-sm", className)} {...props} />
-));
 
-Card.displayName = "Card";
-
-export { Card };
+export function Card({ children, className }) {
+    return <div className={`border rounded-lg p-4 shadow-sm ${className}`}>{children}</div>;
+  }
+  
+  export function CardHeader({ children, className }) {
+    return <div className={`border-b p-4 ${className}`}>{children}</div>;
+  }
+  
+  export function CardTitle({ children, className }) {
+    return <h2 className={`text-lg font-bold ${className}`}>{children}</h2>;
+  }
+  
+  export function CardDescription({ children, className }) {
+    return <p className={`text-sm text-gray-500 ${className}`}>{children}</p>;
+  }
+  
+  export function CardContent({ children, className }) {
+    return <div className={`p-4 ${className}`}>{children}</div>;
+  }
+  

@@ -1,38 +1,38 @@
-import {BrowserRouter,Route,Routes} from "react-router-dom"
-import Navbar from "./Components/Common/Navbar"
-import Footer from './Components/Common/Footer'
-import Chatbot from './Components/Chatbot'
-import SignupPage from "./Authentication/Signup"
-import HeroSection from "./Components/Common/HeroSection"
-import HealthHubBot from "./Components/Chatbot"
-import LandingPage from "./Pages/LandingPage"
+import { BrowserRouter, Route,Routes } from "react-router-dom";
+import { AirQualityMap  }from "./Components/AQIrelated/AqiMap.jsx";
+import { AirQualityTrends } from "./Components/AQIrelated/AqiTrends.jsx";
+import Footer from "./Components/Common/Footer";
+import Navbar from "./Components/Common/Navbar";
+// import Feature from "./Pages/FeaturePage";
+import LandingPage from "./Pages/LandingPage";
+import { AQIPrediction } from "./Components/AQIrelated/AqiPrediction.jsx";
+import { PollutionMap } from "./Components/AQIrelated/PollutionMap.jsx";
+import { AqiMap } from "./Components/AQIrelated/Aqi-map.tsx";
+import Dashboard from "./Components/Dashboard/Dashboard.jsx";
+import Chatbot from "./Chatbot.jsx";
 
-//npx shadcn-ui@latest add [component-name]
-
-
-//bg-gradient-to-b from-[#241E41] to-[#0F0F15]
 
 const App=()=>{
-  return(
+  return (
     <>
-      <BrowserRouter>
-     <HealthHubBot/>
-    
-      <Navbar/>
-      
-          <Routes>
-              <Route path="/" element={<HeroSection/>}/>
-              <Route path="/signup" element={<SignupPage/>}/>
-          </Routes>
-          {/* <UiPage/> */}
-      <Footer/>
-      <LandingPage/>
-      </BrowserRouter>
+       
+       <BrowserRouter>
+       <Navbar/>
+       <Chatbot/>
+       {/* <AqiMap/>
+       <PollutionMap/>
+       <AQIPrediction/> */}
+         <Routes>
+              <Route path="/" element={<LandingPage/>}/>
+              <Route path="/aqi-analysis" element={<AirQualityTrends/>}/>
+              <Route path="/aqi-map" element={<AirQualityMap/>}/>
+              <Route path="/health-risk-alert"/>
+              <Route path="/dashboard" element={<Dashboard/>}/>
+         </Routes>
+       </BrowserRouter>
+       <Footer/>
     </>
   )
 }
 
-
-export default  App 
-
-    
+export default App;
